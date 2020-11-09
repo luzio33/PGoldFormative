@@ -1,0 +1,66 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    background-color: #32292f;
+  }
+  
+  h1 {
+    color: #99E1D9;
+    background-color: #32292f;
+  }
+  
+  p {
+    color: #F0F7F4;
+    font: montserrat;
+    background-color: #32292f;
+    
+  }
+
+li{
+    color: #F0F7F4;
+    font: montserrat;
+    background-color: #32292f;
+    
+  }
+
+
+img {
+    width: 60%;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.einfochips.com/blog/wp-content/uploads/2017/11/experience-smart-fitness-with-augmented-reality-and-virtual-reality-1200x675.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
